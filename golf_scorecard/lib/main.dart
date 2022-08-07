@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
       ),
       //home: const HomePage(title: 'home'),
       //home: const HistoryPage(title: 'history'),
-      //home: const SettingPage(title: 'setting'),
-      home: const ScoreCardPage(
-          title: 'scorecard', course: '南寶球場', holes: 18, date: '2015/3/24'),
+      home: const SettingPage(title: 'setting'),
+      /*home: const ScoreCardPage(
+          title: 'scorecard', course: '南寶球場', holes: 18, date: '2015/3/24'),*/
     );
   }
 }
