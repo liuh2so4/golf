@@ -45,6 +45,18 @@ class ScoreCardPage extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text(title),
+          automaticallyImplyLeading: false,
+          actions: <Widget>[
+          IconButton(
+            iconSize: 35,
+            padding: EdgeInsets.only(right: 20),
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            icon: Icon(Icons.home_filled),
+            tooltip: 'home page',
+          )
+        ],
         ),
         body: Column(children: <Widget>[
           SizedBox(
